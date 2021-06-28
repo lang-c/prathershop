@@ -165,15 +165,18 @@ nav ul li ul li {
 /* PRODUCTS */
 
 .product {
+    border-radius: 10px;
+    box-shadow: gray 0 6px 4px;
     color: rgb(65, 65, 65)ß;
     max-width: 300px;
     margin: auto;
     margin-bottom: 100px;
+    padding: 1em;
     text-align: center;
 }
 
 .product img {
-    box-shadow: gray 0 0 4px;
+    border-radius: 5px;
     height: 400px;
 }
 
