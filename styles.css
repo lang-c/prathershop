@@ -135,13 +135,18 @@ nav ul li ul li {
     padding: 0 0 100px 0;
 }
 
+.pets figure {
+    border-radius: 10px;
+    box-shadow: gray 0 6px 4px;
+    padding: 1em;
+}
+
 .pets figure a:hover {
     opacity: .75;
 }
 
 .pets figure img {
-    border-radius: 4px;
-    box-shadow: gray 0 0 2px;
+    border-radius: 5px;
     height: 300px;
 }
 
