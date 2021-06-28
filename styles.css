@@ -1,0 +1,337 @@
+body {
+    background: white;
+    color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    height: fit-content;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+header .mobile {
+    display: none;
+}
+
+header a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+header .desktoplogo a {
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    display: inline-block;
+    height: 210px;
+    position: relative;
+    text-indent: -9999px;
+    top: -50px;
+    width: 300px;
+}
+
+header .mobilelogo a {
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    display: none;
+    height: 210px;
+    position: relative;
+    text-indent: -9999px;
+    top: -50px;
+    width: 300px;
+}
+
+.title {
+    text-align: center;
+}
+
+/* NAVIGATION */
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    position: relative;
+}
+
+nav ul li:hover {
+    color: rgb(65, 65, 65);
+    text-decoration: underline;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul {
+    color: rgb(65, 65, 65);
+    display: block;
+    font-style: normal;
+}
+
+nav ul li ul li {
+    float: left;
+    margin-left: 0;
+}
+
+/* HOME */
+
+.features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: 0 20px 100px 20px;
+}
+
+.features figure {
+    margin: auto;
+}
+
+.features figure a:hover {
+    opacity: 0.75;
+}
+
+.features figure img {
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: gray 0 0 10px;
+    height: 420px;
+    width: 300px;
+}
+
+/* SHOP */
+
+.general {
+    padding-left: 60px;
+}
+
+.general h2 {
+    margin-bottom: 100px;
+}
+
+/* PETS */
+
+.pets {
+    color: rgb(65, 65, 65)ß;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    margin: 50px;
+    padding: 0 0 100px 0;
+}
+
+.pets figure a:hover {
+    opacity: .75;
+}
+
+.pets figure img {
+    border-radius: 4px;
+    box-shadow: gray 0 0 2px;
+    height: 300px;
+}
+
+.pets figure figcaption {
+    text-transform: uppercase;
+}
+
+.pets .productdescription {
+    font-size: 10.5pt;
+}
+
+.pets .price {
+    font-weight: 500;
+}
+
+/* PRODUCTS */
+
+.product {
+    color: rgb(65, 65, 65)ß;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.product img {
+    box-shadow: gray 0 0 4px;
+    height: 400px;
+}
+
+.product select {
+    border: 1px solid black;
+    border-radius: 2px;
+    color: black;
+    cursor: pointer;
+    font-size: 14pt;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+  
+.product button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    outline: 0;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50%;
+}
+  
+.product button:hover {
+    opacity: 75%;
+}
+
+/* ABOUT */
+
+.about {
+    color: rgb(65, 65, 65);
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding: 20px 75px 100px 75px;
+}
+
+.about p {
+    margin: 0 40px 0 40px;
+}
+
+.about figure img {
+    border-radius: 50px;
+    box-shadow: gray 0 0 10px;
+    height: auto;
+    width: 100%;
+}
+
+.about figure figcaption {
+    font-family: Brush Script MT;
+    font-size: 14pt;
+    text-align: center;
+    padding: 20px;
+}
+
+/* CONTACT */
+
+.contact {
+    color: rgb(65, 65, 65);
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding: 10px 0 100px 0;
+}
+
+.contact div {
+    padding: 10px 50px 10px 50px;
+}
+
+.contact div p {
+    margin-left: 100px;
+}
+
+.contact div form {
+    box-sizing: border-box;
+    padding: 10x 20px 10px 20px;
+    margin-bottom: 20px;
+}
+
+.contact div button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: -50px;
+    margin-top: -50px;
+    outline: 0;
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 20%;
+}
+
+.contact .mobile {
+    display: none;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+}
+
+footer a:hover {
+    opacity: .75;
+}
+
+footer img {
+    height: 20px;
+}
+
+/* RESPONSIVE RULES */
+
+@media screen and (max-width: 800px) {
+    header {
+        height: 350px;
+    }
+    
+    header .mobile {
+        display: inline-block;
+    }
+
+    header .desktop {
+        display: none;
+    }
+
+    header .desktoplogo a {
+        display: none;
+    }
+
+    header .mobilelogo a {
+        display: block;
+    }
+
+    .features figure {
+        padding: 10px;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .contact {
+        flex-wrap: wrap;
+    }
+
+    .contact div p {
+        margin-left: 0;
+    }
+
+    .contact .desktop {
+        display: none;
+    }
+
+    .contact .mobile {
+        display: inline-block;
+    }
+}
