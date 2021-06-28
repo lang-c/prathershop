@@ -190,6 +190,13 @@ nav ul li ul li {
     width: 50%;
     position: relative;
 }
+
+.product form input {
+    border: 1px solid black;
+    font-size: 14px;
+    padding: 2px;
+    width: 100%;
+}
   
 .product button {
     background-color: black;
