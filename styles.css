@@ -289,6 +289,10 @@ nav ul li ul li {
     width: 100px;
 }
 
+.contact div button:hover {
+    opacity: 75%;
+}
+
 .contact .mobile {
     display: none;
 }
